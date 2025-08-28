@@ -1,0 +1,13 @@
+# FastAPI Backend Dependencies
+# Core framework
+fastapi==0.104.1
+
+# ASGI server for running FastAPI
+uvicorn[standard]==0.24.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Additional dependencies for production
+pydantic==2.5.0
+pydantic-settings==2.1.0
