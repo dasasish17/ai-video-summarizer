@@ -10,3 +10,37 @@ python-multipart==0.0.6
 # Additional dependencies for production
 pydantic==2.5.0
 pydantic-settings==2.1.0
+
+# AI & ML Dependencies
+# OpenAI Whisper for speech-to-text
+openai-whisper==20231117
+# OpenAI GPT API client
+openai==1.3.8
+# Audio processing
+librosa==0.10.1
+# Video processing
+ffmpeg-python==0.2.0
+# NumPy for numerical operations
+numpy==1.24.3
+
+# Database & Persistence
+# JSON-based local database
+tinydb==4.8.0
+# Data validation and serialization
+marshmallow==3.20.1
+
+# Background Task Processing
+# Async task processing
+celery==5.3.4
+# Redis for task queue
+redis==5.0.1
+
+# Additional Utilities
+# HTTP client for API calls
+httpx==0.25.2
+# Progress bars for long operations
+tqdm==4.66.1
+# Text processing
+nltk==3.8.1
+# Date/time handling
+python-dateutil==2.8.2
